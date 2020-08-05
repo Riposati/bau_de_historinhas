@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="Ba&#xfa; de historinhas - Ajuda"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jPanel1" max="32767" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Component id="imagem" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="mensagem" min="-2" pref="236" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="460" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="imagem" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="mensagem" min="-2" pref="69" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="imagem">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/imagens/bau.jpg"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="mensagem">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="24" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="33" red="33" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Ba&#xfa; de historinhas"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="99" red="33" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" pref="409" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="jTextArea1">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Arial" size="18" style="1"/>
+                </Property>
+                <Property name="rows" type="int" value="5"/>
+                <Property name="text" type="java.lang.String" value="Tela Cadastro -&#xa;&#xa;Nesta tela o novo usu&#xe1;rio dever&#xe1; registrar-se de forma correta informando os campos necess&#xe1;rios ,&#xa;para que o cadastro seja feito corretamente , insira informa&#xe7;&#xf5;es corretas para que sua experi&#xea;ncia &#xa;com o software seja a melhor poss&#xed;vel.&#xa;&#xa;Tela Login - &#xa;&#xa;informe seu usuario e sua senha escolhida, caso voc&#xea; esque&#xe7;a sua senha , clique em recuperar senha,&#xa;op&#xe7;&#xe3;o que lhe dar&#xe1; a possibilidade de recuperar sua senha, sem perder suas historinhas de seu bau&#xa;de historinhas, caso voc&#xea; n&#xe3;o tenha cadastro ainda, acesse a op&#xe7;&#xe3;o novo cadastro , se j&#xe1; for cadastrado, &#xa;informe seu usuario e sua senha e clique em acessar.&#xa;&#xa;Tela Principal - &#xa;&#xa;Esta tela e a tela que mostra o ba&#xfa; s&#xe3;o as principais do sistema, nesta tela temos uma aba de menu, na op&#xe7;&#xe3;o &#xa;relat&#xf3;rios temos a possibilidade de gerar relat&#xf3;rios sobre os usu&#xe1;rios e suas historias e tamb&#xe9;m a existe a op&#xe7;&#xe3;o de &#xa;visualizar o relat&#xf3;rio gerado, a op&#xe7;&#xe3;o ajuda mostrar&#xe1; esta tela, na op&#xe7;&#xe3;o sobre o ba&#xfa; ser&#xe1; mostrado quem desenvolveu&#xa;o software. A tela principal &#xe9; organizada em sess&#xf5;es, temos a parte do usu&#xe1;rio com op&#xe7;&#xf5;es relacionadas ao software,&#xa;o usu&#xe1;rio tem a possibilidade de inserir os nomes das hist&#xf3;rias e l&#xea;-las diretamente nesta tela, o usu&#xe1;rio poder&#xe1; visualizar&#xa;todas as hist&#xf3;rias inseridas no sistema, visualizar todos os cadastrados, visualizar as hist&#xf3;rias in&#xe9;ditas no sistema e o que &#xa;seria hist&#xf3;rias in&#xe9;ditas ? Seriam as hist&#xf3;rias que nunca foram lidas ainda, o usu&#xe1;rio ter&#xe1; o poder de marcar como lida a hist&#xf3;ria&#xa;que ele buscou e leu e ter&#xe1; tamb&#xe9;m o poder de desmarcar como lida caso deseje que outros usu&#xe1;rios visualizem essa historinha&#xa;como in&#xe9;dita no sistema. O usu&#xe1;rio poder&#xe1; tamb&#xe9;m indicar a hist&#xf3;ria para que outros usu&#xe1;rios vejam que essa hist&#xf3;ria &#xe9; bem &#xa;aceita por outros utilizadores &#xe9; como se fosse marcar como boa a hist&#xf3;ria lida. O usu&#xe1;rio poder&#xe1; tamb&#xe9;m realizar opera&#xe7;&#xf5;es como&#xa;deletar seu cadastro, deletar historinhas, atualizar seu cadastro, atualizar hist&#xf3;rias j&#xe1; inseridas, cadastrar novas hist&#xf3;rias. Na tela&#xa;principal temos ainda a op&#xe7;&#xe3;o de adicionar historinhas ao ba&#xfa; de um usu&#xe1;rio, e deletar as hist&#xf3;rias do usu&#xe1;rio, desde que o usu&#xe1;rio&#xa;saiba sua senha ele poder&#xe1; realizar essas opera&#xe7;&#xf5;es, &#xe9; uma forma de seguran&#xe7;a para os usu&#xe1;rio do sistema, poder&#xe1; tamb&#xe9;m clicar &#xa;na op&#xe7;&#xe3;o para visualizar a tela que mostrar&#xe1; o ba&#xfa; do usu&#xe1;rio desejado.&#xa;&#xa;- Diferen&#xe7;as no cadastro de historinhas : quando voc&#xea; usu&#xe1;rio for utilizar o sistema e for cadastrar alguma historinha nova lembre-se&#xa;que j&#xe1; vem pr&#xe9;-definido um template HTML que &#xe9; uma linguagem de marca&#xe7;&#xe3;o bem f&#xe1;cil e intuitiva , bem tranquila mesmo de se aprender&#xa;e se utilizar n&#xe3;o delete o template, use-o para brincar com sua historinha, como ela ser&#xe1; exibida para seu filho. Caso voc&#xea; n&#xe3;o saiba HTML&#xa;abra seu navegador e digite o seguinte endere&#xe7;o para aprendizagem: http://www.linhadecodigo.com.br/artigo/81/html-basico.aspx como &#xa;dito, &#xe9; bem tranquilo de se aprender HTML. Caso queira ir al&#xe9;m procure tamb&#xe9;m por CSS e lembre-se divirta-se com o ba&#xfa; de historinhas.&#xa;&#xa;Tela Ba&#xfa; - &#xa;&#xa;Nesta tela o usu&#xe1;rio poder&#xe1; visualizar o ba&#xfa; de historinhas do usu&#xe1;rio desejado,poder&#xe1; tamb&#xe9;m ler as hist&#xf3;rias desejadas, o usu&#xe1;rio &#xa;dever&#xe1; digitar o nome da hist&#xf3;ria que ele desejar ler."/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
